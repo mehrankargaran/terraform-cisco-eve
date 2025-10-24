@@ -1,0 +1,36 @@
+{
+  "devices": [
+    {
+      "name": "router1",
+      "ip": "192.168.2.66",
+      "type": "router",
+      "username": "admin",
+      "password": "cisco",
+      "enable_password": "cisco"
+    },
+    {
+      "name": "router2",
+      "ip": "192.168.2.67",
+      "type": "router",
+      "username": "admin",
+      "password": "cisco",
+      "enable_password": "cisco"
+    },
+    {
+      "name": "switch1",
+      "ip": "192.168.2.68",
+      "type": "switch",
+      "username": "admin",
+      "password": "cisco",
+      "enable_password": "cisco"
+    },
+    {
+      "name": "switch2",
+      "ip": "192.168.2.69",
+      "type": "switch",
+      "username": "admin",
+      "password": "cisco",
+      "enable_password": "cisco"
+    }
+  ]
+}
