@@ -7,7 +7,7 @@ terraform {
   }
 }
 
-# خواندن اطلاعات دستگاه‌ها از فایل JSON
+# Reading devices information from json file
 locals {
   devices    = jsondecode(file("${path.module}/cisco_devices.json"))["devices"]
   interfaces = ["ethernet0/1", "ethernet0/2", "ethernet0/3"] # اینترفیس‌هایی که باید پیکربندی شوند
